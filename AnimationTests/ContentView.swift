@@ -4,17 +4,13 @@
 //
 //  Created by Labtanza on 8/18/22.
 //
+// Good info on transitions https://nerdyak.tech/development/2020/10/12/transitions-in-swiftui.html
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        DropDownOverlayTransition()
     }
 }
 

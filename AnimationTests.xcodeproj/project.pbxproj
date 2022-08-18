@@ -14,6 +14,12 @@
 		DAB1238C28AE83B300749161 /* AnimationTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1238B28AE83B300749161 /* AnimationTestsTests.swift */; };
 		DAB1239628AE83B300749161 /* AnimationTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1239528AE83B300749161 /* AnimationTestsUITests.swift */; };
 		DAB1239828AE83B300749161 /* AnimationTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1239728AE83B300749161 /* AnimationTestsUITestsLaunchTests.swift */; };
+		DAB123A528AE840500749161 /* BasicTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123A428AE840500749161 /* BasicTransitionView.swift */; };
+		DAB123A728AE85AA00749161 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123A628AE85AA00749161 /* CustomTransitionView.swift */; };
+		DAB123A928AE86A300749161 /* CountingUpTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123A828AE86A300749161 /* CountingUpTransitionView.swift */; };
+		DAB123AB28AE899B00749161 /* SlidingDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123AA28AE899B00749161 /* SlidingDoorsView.swift */; };
+		DAB123AE28AE9B3F00749161 /* TransistionsScratchPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123AD28AE9B3F00749161 /* TransistionsScratchPadView.swift */; };
+		DAB123B028AE9DE700749161 /* DropDownOverlayTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB123AF28AE9DE700749161 /* DropDownOverlayTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		DAB1239128AE83B300749161 /* AnimationTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1239528AE83B300749161 /* AnimationTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestsUITests.swift; sourceTree = "<group>"; };
 		DAB1239728AE83B300749161 /* AnimationTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAB123A428AE840500749161 /* BasicTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTransitionView.swift; sourceTree = "<group>"; };
+		DAB123A628AE85AA00749161 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
+		DAB123A828AE86A300749161 /* CountingUpTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingUpTransitionView.swift; sourceTree = "<group>"; };
+		DAB123AA28AE899B00749161 /* SlidingDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingDoorsView.swift; sourceTree = "<group>"; };
+		DAB123AD28AE9B3F00749161 /* TransistionsScratchPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransistionsScratchPadView.swift; sourceTree = "<group>"; };
+		DAB123AF28AE9DE700749161 /* DropDownOverlayTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOverlayTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 			children = (
 				DAB1237A28AE83B000749161 /* AnimationTestsApp.swift */,
 				DAB1237C28AE83B000749161 /* ContentView.swift */,
+				DAB123AC28AE8C6000749161 /* Transitions */,
 				DAB1237E28AE83B300749161 /* Assets.xcassets */,
 				DAB1238028AE83B300749161 /* Preview Content */,
 			);
@@ -125,6 +138,19 @@
 				DAB1239728AE83B300749161 /* AnimationTestsUITestsLaunchTests.swift */,
 			);
 			path = AnimationTestsUITests;
+			sourceTree = "<group>";
+		};
+		DAB123AC28AE8C6000749161 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				DAB123A428AE840500749161 /* BasicTransitionView.swift */,
+				DAB123A628AE85AA00749161 /* CustomTransitionView.swift */,
+				DAB123A828AE86A300749161 /* CountingUpTransitionView.swift */,
+				DAB123AA28AE899B00749161 /* SlidingDoorsView.swift */,
+				DAB123AD28AE9B3F00749161 /* TransistionsScratchPadView.swift */,
+				DAB123AF28AE9DE700749161 /* DropDownOverlayTransition.swift */,
+			);
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB1237D28AE83B000749161 /* ContentView.swift in Sources */,
+				DAB123A928AE86A300749161 /* CountingUpTransitionView.swift in Sources */,
+				DAB123A528AE840500749161 /* BasicTransitionView.swift in Sources */,
+				DAB123A728AE85AA00749161 /* CustomTransitionView.swift in Sources */,
+				DAB123B028AE9DE700749161 /* DropDownOverlayTransition.swift in Sources */,
+				DAB123AE28AE9B3F00749161 /* TransistionsScratchPadView.swift in Sources */,
 				DAB1237B28AE83B000749161 /* AnimationTestsApp.swift in Sources */,
+				DAB123AB28AE899B00749161 /* SlidingDoorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
